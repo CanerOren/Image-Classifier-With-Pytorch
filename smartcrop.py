@@ -1,6 +1,7 @@
 import sys
-sys.path.append('D:/Anaconda/envs/classifier/Lib/site-packages')
-import cv2 as cv
+
+sys.path.append("D:/Anaconda/envs/classifier/Lib/site-packages")
+import cv2 as cv  # type: ignore
 import numpy as np
 
 EXTENSIONS = ("jpg", "JPG", "jpeg", "JPEG", "png", "PNG")
