@@ -177,4 +177,4 @@ pyrightconfig.json
 raw_images/
 processed_images/
 embeddings/
-cluster/
+clusters/
