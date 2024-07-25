@@ -178,3 +178,5 @@ raw_images/
 processed_images/
 embeddings/
 clusters/
+dataset/
+model_dataset/
