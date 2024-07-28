@@ -38,12 +38,13 @@ def read_images_from_dir(dir_path):
     logging.info(f"Load {len(images)} images from {dir_path}")
     return images
 
+
 def get_images_from_dir(dir_path):
     check_is_dir(dir_path)
     files = os.listdir(dir_path)
     image_files = filter_images(files)
     image_paths = [os.path.join(dir_path, file) for file in image_files]
-    
+
     return image_paths
 
 

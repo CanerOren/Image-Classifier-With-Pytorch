@@ -1,4 +1,4 @@
-#D:/Anaconda/python.exe d:/Yazılım/image-clasiffier/clustering.py
+# D:/Anaconda/python.exe d:/Yazılım/image-clasiffier/clustering.py
 import os
 import shutil
 from itertools import compress
@@ -61,4 +61,3 @@ for label_number in tqdm(range(cluster_range)):
     # Copy images into separate directories
     for img_path in path_images:
         shutil.copy2(img_path, target_directory)
-
